@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  .box{
+    background-color: yellow;
+    padding: 1rem;
+  }
+  .box:nth-last-of-type(2) {
+    background: dodgerblue;
+    color: black;
+  }
+  @media screen and (min-width: 600px) {
+    .container {
+      flex-direction: row;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid made simple</title>
+    <style>
+      .container {
+        display: grid;
+        margin: 5rem auto;
+        width: min(90%, 75em);
+        grid-auto-flow: column;
+        background-color: dodgerblue;
+        color: white;
+      }
+      .box {
+        column-gap: 1rem;
+        margin: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h3>Hello</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, illo
+          quae aliquam facilis mollitia beatae ea eaque illum nihil quaerat?
+        </p>
+      </div>
+      <div class="box">
+        <h3>Hello</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, illo
+          quae aliquam facilis mollitia beatae ea eaque illum nihil quaerat?
+        </p>
+      </div>
+      <div class="box">
+        <h3>Hello</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, illo
+          quae aliquam facilis mollitia beatae ea eaque illum nihil quaerat?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

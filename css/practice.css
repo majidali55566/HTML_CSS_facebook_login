@@ -1,0 +1,20 @@
+#getDiploma{
+    background-color: #282A35;
+    width: 250px;
+    height: 150px;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    color: #FFC0C7;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+#getDiploma h3{
+    padding-top: 20px;
+}
+#button{
+    width: fit-content;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+}

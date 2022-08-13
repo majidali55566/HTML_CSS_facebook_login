@@ -1,0 +1,85 @@
+body{
+    background: blue;
+}
+.facebook-login{
+    width: 100%;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#logo{
+    color: white;
+}
+.facebook-logo{
+    margin: 7rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#english{
+    font-size: small;
+   color: black;
+}
+input[type="text"],input[type="password"]{
+    width:36vh;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: medium;
+    font-weight: 600;
+    transition: box-shadow 0.4s;
+}
+@media screen and (min-width:450px) {
+    input[type="text"],input[type="password"]{
+        width:300px;
+    }
+    .facebook-logo{
+        margin: 1rem 0 0rem 0;
+    }
+    #submit-button{
+        width: 300px;
+    }
+
+}
+input[type="text"]:focus
+,input[type="password"]:focus{
+    outline: none;
+    box-shadow: 0 0 0 4px #141485;
+}
+#submit-button{
+    width: 38.45vh;
+    margin: 0.62rem;
+    padding: 5px;
+    background-color: #141485;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #141485;
+}
+#submit-button:hover{
+    background-color:#08085c ;
+}
+#sign-up{
+    margin-top: 20px;
+    color: white;
+}
+#sign-up:hover{
+    color: black;
+}
+.forget-icon{
+    display: flex;
+    
+}
+#question{
+    color: white;
+   align-self: center;
+   margin-left: 3px;
+}
+.sign-up-container{
+    margin-top: 10vh;
+}
+
+

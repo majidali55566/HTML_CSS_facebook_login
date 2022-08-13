@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 10px;
+      }
+      .container {
+        border: 3px solid black;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 5rem;
+        height: 5rem;
+        background-color: gold;
+        margin: 1rem;
+      }
+      .box-one {
+        flex-basis: 10rem;
+        flex-grow: 1;
+        flex-shrink: 0;
+      }
+    </style>
+    <title>Flex box</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box-one">1</div>
+      <div class="box box-two">2</div>
+      <div class="box box-three">3</div>
+    </div>
+  </body>
+</html>
